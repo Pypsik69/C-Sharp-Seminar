@@ -15,3 +15,5 @@ int PowerNM(int n, int m)
 {
     return (m == 0) ? 1 : PowerNM(n, m - 1) * n;
 }
+
+///// проверка 
